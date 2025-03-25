@@ -1,0 +1,179 @@
+/* Загальні стилі */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+}
+
+h1,
+h2 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 28px;
+    color: #2980b9;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Ліва частина (контактна інформація, навички) */
+.sidebar {
+    background-color: #2c3e50;
+    color: white;
+    padding: 30px;
+    margin-right: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.sidebar h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #2980b9;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.sidebar a {
+    color: #1abc9c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+/* Права частина (основний контент резюме) */
+.main-content {
+    flex: 1;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Сітка для колонок */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 30%;
+}
+
+.main-content {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.summary {
+order: -1;
+margin-top: 0;
+}
+
+/* Секції для проектів і досвіду */
+.project,
+.work-experience,
+.education {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.project h4,
+.work-experience h4,
+.education h4 {
+    font-size: 20px;
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+.project a,
+.work-experience a,
+.education a {
+    color: #2980b9;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project a:hover,
+.work-experience a:hover,
+.education a:hover {
+    text-decoration: underline;
+}
+
+/* Технічні та м'які навички */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list li {
+    background-color: #2980b9;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.skills-list li:hover {
+    background-color: #3498db;
+}
+
+/* Заголовки секцій */
+section h3 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+/* Контактна інформація */
+.contact-info {
+    font-size: 16px;
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+.contact-info a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
